@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+package model {
+  interface ActorDto #aliceblue {
+    +actorId: number
+    +firstName: string
+    +lastName: string
+    +movie: string
+    +rentalRate: number
+    +lastUpdate: string
+  }
+}
+
+package pg {
+  class Actor #aliceblue {
+    -pool: Pool
+    +findByYearAndLastName(): Promise<ActorDto[]>
+    +updateLastNameByIds(): Promise<number>
+    +updateFirstNameByIds(): Promise<number>
+    {static} -mapActorResult(): ActorDto[]
+  }
+}
+
+package db {
+  interface ActorDb #aliceblue {
+    +findByYearAndLastName()
+    +updateLastNameByIds()
+    +updateFirstNameByIds()
+  }
+}
+
+model ^-- pg
+pg ^-- db
+
+@enduml

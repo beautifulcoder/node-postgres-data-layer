@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="635px" preserveAspectRatio="none" style="width:362px;height:635px;" version="1.1" viewBox="0 0 362 635" width="362px" zoomAndPan="magnify"><defs><filter height="300%" id="fobb1nz7xpb60" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#fobb1nz7xpb60)" points="16,6,65,6,72,29.6094,201,29.6094,201,205,16,205,16,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="72" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="20" y="22.5332">model</text><!--MD5=[f3f841fcee64ca3144be68779af6ef67]
+cluster pg--><polygon fill="#FFFFFF" filter="url(#fobb1nz7xpb60)" points="16,245,40,245,47,268.6094,345,268.6094,345,430,16,430,16,245" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="47" y1="268.6094" y2="268.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="18" x="20" y="261.5332">pg</text><!--MD5=[e8f3788ad7b97e8de68b4194558bc2a1]
+cluster db--><polygon fill="#FFFFFF" filter="url(#fobb1nz7xpb60)" points="16,470,40,470,47,493.6094,241,493.6094,241,628,16,628,16,470" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="47" y1="493.6094" y2="493.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="18" x="20" y="486.5332">db</text><!--MD5=[e6af29c8fdfc234e7f49b0b3c8bf5a47]
+class ActorDto--><rect codeLine="4" fill="#F0F8FF" filter="url(#fobb1nz7xpb60)" height="131.0156" id="ActorDto" style="stroke:#A80036;stroke-width:1.5;" width="117" x="59.5" y="50"/><ellipse cx="91.6" cy="66" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M92.6,63 L92.6,69 L94.6,69 L95.0844,69 L95.6,69.625 L95.6,70 L95.6,70.375 L95.0844,71 L94.6,71 L88.6,71 L88.1156,71 L87.6,70.375 L87.6,70 L87.6,69.625 L88.1156,69 L88.6,69 L90.6,69 L90.6,63 L88.6,63 L88.1156,63 L87.6,62.375 L87.6,62 L87.6,61.625 L88.1156,61 L88.6,61 L94.6,61 L95.0844,61 L95.6,61.625 L95.6,62 L95.6,62.375 L95.0844,63 L94.6,63 L92.6,63 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="109.4" y="70.9102">ActorDto</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="175.5" y1="82" y2="82"/><ellipse cx="70.5" cy="93" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="79.5" y="97.4189">actorId: number</text><ellipse cx="70.5" cy="106.8359" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="79.5" y="111.2549">firstName: string</text><ellipse cx="70.5" cy="120.6719" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="79.5" y="125.0908">lastName: string</text><ellipse cx="70.5" cy="134.5078" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="79.5" y="138.9268">movie: string</text><ellipse cx="70.5" cy="148.3438" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="91" x="79.5" y="152.7627">rentalRate: number</text><ellipse cx="70.5" cy="162.1797" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="79.5" y="166.5986">lastUpdate: string</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="175.5" y1="173.0156" y2="173.0156"/><!--MD5=[44201db48fb57df1a9c7f5b6b15426b0]
+class Actor--><rect codeLine="15" fill="#F0F8FF" filter="url(#fobb1nz7xpb60)" height="117.1797" id="Actor" style="stroke:#A80036;stroke-width:1.5;" width="262" x="59" y="289"/><ellipse cx="172.25" cy="305" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M174.25,301.5 Q174.4531,301 174.6875,300.75 Q174.9219,300.5 175.1875,300.5 Q175.6563,300.5 175.9531,300.7813 Q176.25,301.0625 176.25,301.7188 L176.25,303.2813 Q176.25,303.9375 175.9688,304.2188 Q175.6875,304.5 175.25,304.5 Q174.8594,304.5 174.6094,304.3281 Q174.3594,304.1563 174.25,303.7031 Q174.2031,303.3906 174.0313,303.2188 Q173.7188,302.8906 173.1563,302.7031 Q172.5938,302.5 172.0313,302.5 Q171.3281,302.5 170.7344,302.7813 Q170.1563,303.0625 169.7031,303.6875 Q169.25,304.3125 169.25,305.1719 L169.25,306.0938 Q169.25,307.125 170.0938,307.8125 Q170.9375,308.5 172.4375,308.5 Q173.3281,308.5 173.9531,308.2969 Q174.3125,308.1875 174.7188,307.8281 Q174.9844,307.625 175.125,307.5625 Q175.2656,307.5 175.4375,307.5 Q175.7656,307.5 176,307.7656 Q176.25,308.0156 176.25,308.375 Q176.25,308.7188 175.9063,309.125 Q175.4063,309.7188 174.6094,310.0469 Q173.5625,310.5 172.2813,310.5 Q170.7813,310.5 169.5781,309.9063 Q168.6094,309.4375 167.9219,308.4219 Q167.25,307.4063 167.25,306.2031 L167.25,305.1094 Q167.25,303.8594 167.8438,302.7656 Q168.4531,301.6719 169.5,301.0938 Q170.5625,300.5 171.75,300.5 Q172.4688,300.5 173.0938,300.75 Q173.7188,301 174.25,301.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="192.75" y="309.9102">Actor</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="320" y1="321" y2="321"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="67" y="329"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="79" y="336.4189">pool: Pool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60" x2="320" y1="342.8359" y2="342.8359"/><ellipse cx="70" cy="353.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="79" y="358.2549">findByYearAndLastName(): Promise&lt;ActorDto[]&gt;</text><ellipse cx="70" cy="367.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="79" y="372.0908">updateLastNameByIds(): Promise&lt;number&gt;</text><ellipse cx="70" cy="381.5078" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="208" x="79" y="385.9268">updateFirstNameByIds(): Promise&lt;number&gt;</text><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="67" y="392.3438"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" text-decoration="underline" textLength="140" x="79" y="399.7627">mapActorResult(): ActorDto[]</text><!--MD5=[45c32f6453e68d241b55c3e6d3f1bb47]
+class ActorDb--><rect codeLine="25" fill="#F0F8FF" filter="url(#fobb1nz7xpb60)" height="89.5078" id="ActorDb" style="stroke:#A80036;stroke-width:1.5;" width="157" x="59.5" y="514"/><ellipse cx="111.25" cy="530" fill="#B4A7E5" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M112.25,527 L112.25,533 L114.25,533 L114.7344,533 L115.25,533.625 L115.25,534 L115.25,534.375 L114.7344,535 L114.25,535 L108.25,535 L107.7656,535 L107.25,534.375 L107.25,534 L107.25,533.625 L107.7656,533 L108.25,533 L110.25,533 L110.25,527 L108.25,527 L107.7656,527 L107.25,526.375 L107.25,526 L107.25,525.625 L107.7656,525 L108.25,525 L114.25,525 L114.7344,525 L115.25,525.625 L115.25,526 L115.25,526.375 L114.7344,527 L114.25,527 L112.25,527 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="45" x="131.75" y="534.9102">ActorDb</text><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="215.5" y1="546" y2="546"/><line style="stroke:#A80036;stroke-width:1.5;" x1="60.5" x2="215.5" y1="554" y2="554"/><ellipse cx="70.5" cy="565" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="131" x="79.5" y="569.4189">findByYearAndLastName()</text><ellipse cx="70.5" cy="578.8359" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="79.5" y="583.2549">updateLastNameByIds()</text><ellipse cx="70.5" cy="592.6719" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="116" x="79.5" y="597.0908">updateFirstNameByIds()</text><!--MD5=[dab1a15f7ecb2faf2f2d564bd3f11ece]
+reverse link model to pg--><path d="M24,205.6236 C24,207.325 24,209.0343 24,210.75 C24,217.6129 24,224.5778 24,231.5425 C24,235.0248 24,238.5071 24,241.9766 C24,242.844 24,243.7105 24,244.5761 " fill="none" id="model-backto-pg" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="24,205.6236,17,224.6236,31,224.6236,24,205.6236" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[e1d4aa6b2880b29e8fc3733e220e5758]
+reverse link pg to db--><path d="M24,430.8429 C24,431.2312 24,431.62 24,432.0091 C24,432.7874 24,433.5673 24,434.3487 C24,440.5998 24,446.9438 24,453.2875 C24,456.4594 24,459.6312 24,462.7913 C24,464.3714 24,465.9486 24,467.5213 C24,468.3077 24,469.093 24,469.877 " fill="none" id="pg-backto-db" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#FFFFFF" points="24,430.8429,17,449.8429,31,449.8429,24,430.8429" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[48b885958bc525ed53e35abd962033ab]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+package model {
+  interface ActorDto #aliceblue {
+    +actorId: number
+    +firstName: string
+    +lastName: string
+    +movie: string
+    +rentalRate: number
+    +lastUpdate: string
+  }
+}
+
+package pg {
+  class Actor #aliceblue {
+    -pool: Pool
+    +findByYearAndLastName(): Promise<ActorDto[]>
+    +updateLastNameByIds(): Promise<number>
+    +updateFirstNameByIds(): Promise<number>
+    {static} -mapActorResult(): ActorDto[]
+  }
+}
+
+package db {
+  interface ActorDb #aliceblue {
+    +findByYearAndLastName()
+    +updateLastNameByIds()
+    +updateFirstNameByIds()
+  }
+}
+
+model ^- - pg
+pg ^- - db
+
+@enduml
+
+@startuml
+
+package model {
+  interface ActorDto #aliceblue {
+    +actorId: number
+    +firstName: string
+    +lastName: string
+    +movie: string
+    +rentalRate: number
+    +lastUpdate: string
+  }
+}
+
+package pg {
+  class Actor #aliceblue {
+    -pool: Pool
+    +findByYearAndLastName(): Promise<ActorDto[]>
+    +updateLastNameByIds(): Promise<number>
+    +updateFirstNameByIds(): Promise<number>
+    {static} -mapActorResult(): ActorDto[]
+  }
+}
+
+package db {
+  interface ActorDb #aliceblue {
+    +findByYearAndLastName()
+    +updateLastNameByIds()
+    +updateFirstNameByIds()
+  }
+}
+
+model ^- - pg
+pg ^- - db
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 04:25:05 CST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>
